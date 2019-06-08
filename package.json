@@ -1,0 +1,29 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "demo server",
+  "main": "server/index.js",
+  "author": "Carlos Lantigua",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "nodemon"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-session-knex": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "faker": "^4.1.0",
+    "helmet": "^3.18.0",
+    "knex": "^0.17.3",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
